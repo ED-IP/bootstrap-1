@@ -2,6 +2,19 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.alert-container .col-12{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    background-color: #eec802;
+    border-color: #eec802;
+}
+
 .alert-container {}
 
 .callout-container{
@@ -50,7 +63,7 @@ body {
 
 /*Navbar*/
 
-.navaalert-container{
+.navalert-container{
     position: absolute;
     top: 0;
     left: 0;
@@ -58,11 +71,24 @@ body {
     padding-right: 0;
 }
 
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
 .navbar {
     margin-bottom: 0;
     border: 0;
     width: 100%;
     background-color: rgba(0,0,0,0.25);
+    z-index: 1;
 }
 
 /*Jumbotron*/
